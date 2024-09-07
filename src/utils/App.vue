@@ -46,7 +46,7 @@
 
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
-import { supabase } from './utils/supabase';
+import { supabase } from '/home/hangj11/haengjoonkang1/src/utils/supabase.js';
 
 interface Todo {
   id: number;
